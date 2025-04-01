@@ -1,0 +1,19 @@
+.conteiner{
+    background-color: #4485c1;
+    padding: 60px;
+    margin-top: 626px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+p{
+    color: #ffff;
+}
+
+a{
+    color: #ffff;
+}

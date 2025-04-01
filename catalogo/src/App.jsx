@@ -1,6 +1,7 @@
 import { Cabecalho} from "./Componentes/Cabecalho";
 import { BarraNavegacao } from "./Componentes/BarraNavegacao";
 import { Conteudo } from "./Componentes/Conteudo";
+import { Footer } from "./Componentes/footer";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Cabecalho />
       <BarraNavegacao/>
       <Conteudo/>
+      <Footer/>
     </>
   )
 }
