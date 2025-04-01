@@ -1,0 +1,7 @@
+.conteiner{
+    background-color: #356fa5;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
