@@ -1,0 +1,13 @@
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #356fa5;
+}
+
+figure{
+    display: flex;
+    flex-wrap: wrap;
+}

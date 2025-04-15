@@ -1,9 +1,9 @@
 import estilos from './Conteudo.module.css';
-
+import { Lista } from './Lista';
 export function Conteudo(){
     return(
         <main className={estilos.conteiner}>
-            <h2>Conteúdo</h2>
+            <Lista />
         </main>
     )
 }

@@ -1,4 +1,5 @@
 import estilos from './BarraNavegacao.module.css';
+import { Link } from 'react-router-dom';
 //Estrutura do componente
 
 export function BarraNavegacao(){
@@ -6,9 +7,9 @@ export function BarraNavegacao(){
     return(
         <nav className={estilos.conteiner}>
             <ul>
-                <li>Home</li>
-                <li>Filmes</li>
-                <li>Perfil</li>
+                <Link to="/"><li>Home</li></Link>
+                <Link to="serie"><li>Filmes</li></Link>
+                <Link to="perfil"><li>Perfil</li></Link>
             </ul>
         </nav>
             

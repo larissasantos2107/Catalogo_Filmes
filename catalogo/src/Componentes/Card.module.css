@@ -1,0 +1,30 @@
+.conteiner {
+    background-color: #1e1e2f;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 240px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease;
+    text-align: center;
+    border: 2px solid transparent;
+  }
+  
+  .conteiner:hover {
+    transform: scale(1.05);
+    border: 2px solid #f9d23f; /* destaque no hover */
+  }
+  
+  .conteiner h3 {
+    font-size: 1.1rem;
+    color: #ffff ; /* cor principal do título */
+    margin-bottom: 10px;
+  }
+  
+  .conteiner img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
