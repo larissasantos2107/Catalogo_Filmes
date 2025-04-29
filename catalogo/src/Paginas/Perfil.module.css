@@ -1,8 +1,89 @@
-.conteiner{
-    background-color: #356fa5;
-    padding: 10px;
+.container {
+    max-width: 1800px;
+    padding: 2rem;
+    font-family: sans-serif;
+    color: #333;
+}
+
+.perfilWrapper h3 {
+    color: #486623;
+}
+
+.perfilWrapper {
     display: flex;
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 100%px;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.foto {
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.descricao {
+    flex: 1;
+}
+
+.nome {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.filmes {
+    margin-top: 5.5rem;
+}
+
+.filmes img {
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.filmes h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.filmes ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.filmes li {
+    margin-bottom: 0.3rem;
+}
+
+.menu {
+    gap: 30px;
+    margin-top: 40px;
+    padding: 2rem;
+    font-family: sans-serif;
+    color: #333;
+}
+
+.menu .icons{
+    margin-top: 40px;
+    gap: 20px;
+    display: flex;
+}
+
+.menu h1{
+    font-size: 20px;
+    color: black;
+}
+
+.menu svg {
+    font-size: 50px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.menu svg:hover {
+    transform: scale(1.2);
 }

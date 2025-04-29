@@ -15,7 +15,8 @@ export function Lista(){
     const [SelectedMovie, setSelectedMovie] = useState(null)
 
     useEffect(()=>{
-        axios.get(`${API_URL}/movie/popular?api_key=${API_key}&languagem=pt-BR`)
+        axios.get(`${API_URL}/movie/now_playing?api_key=${API_key}&language=pt-BR&region=BR`)
+        // axios.get(`${API_URL}/movie/now_playing?api_key=${API_key}&language=pt-BR&region=BR`)
         .then(response=>{
             console.log(response.data.results);
             setMovies(response.data.results);

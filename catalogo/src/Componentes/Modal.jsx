@@ -17,7 +17,6 @@ export function Modal({movie, onClose}){
                 <p>{`Popularidade: ${movie.popularity}`}</p>
                 <p>{`Data de Lançamento: ${movie.release_date}`}</p>
                 <p>{`Quantidade de votos: ${movie.vote_count}`}</p>
-                <p>{`Sinopse: ${movie.overview}`}</p>
 
 
 
